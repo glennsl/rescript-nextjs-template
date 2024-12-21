@@ -22,7 +22,9 @@ module GetServerSideProps = {
   }
 
   // The definition of a getServerSideProps function
-  type t<'props, 'params, 'previewData> = context<'props, 'params, 'previewData> => Js.Promise.t<{"props": 'props}>
+  type t<'props, 'params, 'previewData> = context<'props, 'params, 'previewData> => Js.Promise.t<{
+    "props": 'props,
+  }>
 }
 
 module GetStaticProps = {
@@ -58,6 +60,7 @@ module Link = {
   external make: (
     ~href: string,
     ~_as: string=?,
+    ~className: option<string>=?,
     ~prefetch: bool=?,
     ~replace: option<bool>=?,
     ~shallow: option<bool>=?,

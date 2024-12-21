@@ -19,9 +19,7 @@ function getServerSideProps(_ctx) {
 }
 
 export {
-  $$default ,
   $$default as default,
   getServerSideProps ,
-  
 }
 /* react Not a pure module */

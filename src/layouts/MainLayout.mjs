@@ -53,6 +53,5 @@ var make = MainLayout;
 
 export {
   make ,
-  
 }
 /* react Not a pure module */

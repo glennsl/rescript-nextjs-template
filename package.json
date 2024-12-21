@@ -21,13 +21,13 @@
     "res:start": "rescript build -w"
   },
   "devDependencies": {
-    "@rescript/react": "0.10.3",
+    "@rescript/react": "^0.13.0",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
     "gentype": "4.1",
     "postcss": "^8.4.49",
     "postcss-cli": "8.3.1",
-    "rescript": "9.1",
+    "rescript": "^11.1.4",
     "tailwindcss": "^3.4.17"
   }
 }

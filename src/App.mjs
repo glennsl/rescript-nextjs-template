@@ -22,8 +22,6 @@ function $$default(props) {
 }
 
 export {
-  $$default ,
   $$default as default,
-  
 }
 /* react Not a pure module */
